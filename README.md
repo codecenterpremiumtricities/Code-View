@@ -11,15 +11,14 @@ CodeView is a standalone debugger created by David Norris at Microsoft in 1985 a
 Overview
 
 When running, CodeView presents the user with several windows that can be tiled, moved, sized and otherwise manipulated via the keyboard or mouse, with CodeView 4.x providing a richer interface. Some of the windows include:
-
-    Code window – the code window showed the currently debugged code in its source code context.
-    Data window – a hexadecimal dump of a user-specified memory area.
-    Watch window – a contextual display of variables by name.
-    Locals window – a contextual display of variables local to the current function.
-    Command window – user commands (using the same or similar syntax as DEBUG and SYMDEB) could be entered here.
-    Assembly window – the assembly (machine code) was displayed, allowing for single-stepping through functions.
-    Register window – to visualize the 80x86 register contents, including segments, flags and the FPU (CodeView existed before MMX and other SIMD extensions).
-    Output window – a window showing startup operations and debugging information relating to breakpoints,[2] hardware breaks (interrupt 0 and 3), etc.
+Code window – the code window showed the currently debugged code in its source code context.
+Data window – a hexadecimal dump of a user-specified memory area.
+Watch window – a contextual display of variables by name.
+Locals window – a contextual display of variables local to the current function.
+Command window – user commands (using the same or similar syntax as DEBUG and SYMDEB) could be entered here.
+Assembly window – the assembly (machine code) was displayed, allowing for single-stepping through functions.
+Register window – to visualize the 80x86 register contents, including segments, flags and the FPU (CodeView existed before MMX and other SIMD extensions).
+Output window – a window showing startup operations and debugging information relating to breakpoints,[2] hardware breaks (interrupt 0 and 3), etc.
 
 Features
 386 mode – 8086, 80286 and 80386 and later processors. 386 enhanced mode is activated by a menu option, allowing for 32-bit registers and disassembly.
